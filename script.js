@@ -20,3 +20,12 @@ document.getElementById("form-contacto").addEventListener("submit", function(e) 
       aboutSection.classList.add('visible');
     }, 0); // retardo para más elegancia
   });
+
+
+/*     const cinta = document.querySelector('.testimonios-cinta');
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % 3; // Cicla de 0 a 2
+    cinta.style.transform = `translateX(-${index * 100}%)`;
+  }, 5000); // 5 segundos por testimonio */
