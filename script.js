@@ -22,10 +22,19 @@ document.getElementById("form-contacto").addEventListener("submit", function(e) 
   });
 
 
-/*     const cinta = document.querySelector('.testimonios-cinta');
+  //Corrusel 
+const cinta = document.querySelector('.testimonios-cinta');
   let index = 0;
 
   setInterval(() => {
     index = (index + 1) % 3; // Cicla de 0 a 2
     cinta.style.transform = `translateX(-${index * 100}%)`;
-  }, 5000); // 5 segundos por testimonio */
+  }, 5000); // 5 segundos por testimonio 
+
+  //Toggle_BAR
+    const toggleBtn = document.getElementById('menu-toggle');
+  const navLinks = document.querySelector('.nav_links');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
