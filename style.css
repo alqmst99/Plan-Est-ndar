@@ -659,8 +659,12 @@ footer a {
 
   .nav_logo {
     flex: 1 1 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 0;
   }
+
+  
+  
 
   .nav_links {
     flex-wrap: wrap;
@@ -668,9 +672,7 @@ footer a {
     justify-content: center;
   }
 
-  .nav_logo p {
-  margin: 0.5px;
-}
+  
   .botton{
   width: 50%;
   text-align: center;
