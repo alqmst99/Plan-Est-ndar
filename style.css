@@ -612,20 +612,7 @@ footer a {
   list-style: disc;
 }
 
-@media screen and (max-width: 768px) {
-  .legal-section {
-    padding: 1rem;
-    font-size: 0.95rem;
-  }
 
-  .legal-section h2 {
-    font-size: 1.5rem;
-  }
-
-  .legal-section h3 {
-    font-size: 1.1rem;
-  }
-}
 /*RESPONSIVE STYLE*/
 
 
@@ -755,7 +742,7 @@ footer a {
     grid-template-columns: repeat(1, 1fr);
   }
 .footer-start{
-  grid-template-columns: repeat(1,1fr);
+  display: block;
 }
  .footer-desc {
   display: grid;
@@ -794,5 +781,20 @@ footer a {
   .footer-social {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .legal-section {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .legal-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .legal-section h3 {
+    font-size: 1.1rem;
   }
 }
