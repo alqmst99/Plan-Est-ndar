@@ -99,18 +99,18 @@ section {
 /*Header*/
 header {
   background-color: var(--primary-color-light);
-  color: var(--white);
   text-align: center;
   width: 100%;
   font-weight: 600;
   height: 15vh;
   z-index: 10;
   position: relative;
+  
 
 }
 
 .nav_logo {
-
+color: var(--white);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -122,6 +122,7 @@ header {
 }
 
 .nav_logo p {
+  color: var(--white);
   margin: 2px;
 }
 
@@ -159,6 +160,7 @@ header nav .nav_links .link a {
   position: relative;
   padding-bottom: 0.75rem;
   background: transparent;
+  color: var(--white);
 
 }
 
@@ -177,6 +179,10 @@ header nav .nav_links .link a:hover::after {
   width: 50%;
 
 }
+header nav .nav_links .link a:hover{
+  color: var(--secondary-color);
+}
+  
 
 .nav_links {
   transition: max-height 0.4s ease-in-out;
