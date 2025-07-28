@@ -83,7 +83,8 @@ section {
   box-shadow: 0px 10px 90px black;
 }
 .hero_title h2{
-  color: var(--white);
+  color: black;
+  filter: drop-shadow(4px 4px rgb(117, 117, 255)) drop-shadow(-3px -3px rgb(102, 252, 102));
 }
 .hero .hero_desc p { 
   color: var(--white);
@@ -92,7 +93,7 @@ section {
 
 .btn {
   background: var(--secondary-color);
-  color: white;
+  color: black;
   padding: 0.8em 1.5em;
   text-decoration: none;
   border-radius: 8px;
