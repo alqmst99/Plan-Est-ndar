@@ -4,7 +4,7 @@
 /* Values Root*/
 :root {
   --primary-color: rgb(70, 0, 128);
-  --primary-color-light: #6823d6;
+  --primary-color-light: #b78aff;
   --primary-color-extra-light: #35373b;
   --secondary-color: #75f954;
   --secondary-color-dark: #9bee86;
@@ -626,7 +626,7 @@ footer a {
 
 
 /* Smartphones */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
 
   header {
