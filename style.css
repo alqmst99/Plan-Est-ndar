@@ -84,8 +84,14 @@ section {
 }
 .hero_title h2{
   color: black;
-  filter: drop-shadow(4px 4px rgb(117, 117, 255)) drop-shadow(-3px -3px rgb(102, 252, 102));
+transition: 0.25s;
 }
+
+.hero_title:hover h2{
+  font-size: 1.5rem;
+  filter:  drop-shadow(-10px 15px rgb(102, 252, 102)) drop-shadow(-10px -15px rgb(102, 252, 102));
+}
+
 .hero .hero_desc p { 
   color: var(--white);
   padding: 10px;
@@ -124,8 +130,12 @@ color: var(--white);
 .logo-img img {
   border-radius: 100%;
   overflow: hidden;
+  transition: 0.25s;
 }
 
+.logo-img:hover img:{
+transform: rotate(360deg);
+}
 .nav_logo p {
   color: var(--white);
   margin: 2px;
