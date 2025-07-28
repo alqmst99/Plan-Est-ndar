@@ -89,7 +89,7 @@ transition: 0.25s;
 
 .hero_title:hover h2{
   font-size: 1.5rem;
-  filter:  drop-shadow(-10px 15px rgb(102, 252, 102)) drop-shadow(-10px -15px rgb(102, 252, 102));
+  filter:  drop-shadow(0px 12px 0.25rem rgb(0, 255, 0)) drop-shadow(10px -12px 0.2rem rgb(0, 255, 0));
 }
 
 .hero .hero_desc p { 
@@ -135,6 +135,7 @@ color: var(--white);
 
 .logo-img:hover img{
 transform: rotate(360deg);
+filter:  drop-shadow(-3px 3px 0.4rem rgb(60, 255, 0));
 }
 .nav_logo p {
   color: var(--white);
