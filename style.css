@@ -133,7 +133,7 @@ color: var(--white);
   transition: 0.25s;
 }
 
-.logo-img:hover img:{
+.logo-img:hover img{
 transform: rotate(360deg);
 }
 .nav_logo p {
