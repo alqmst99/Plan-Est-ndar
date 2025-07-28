@@ -130,12 +130,13 @@ color: var(--white);
 .logo-img img {
   border-radius: 100%;
   overflow: hidden;
-  transition: 0.25s;
+  filter:  drop-shadow(-3px 3px 0.4rem rgb(60, 255, 0));
+  transition: 0.4s;
 }
 
 .logo-img:hover img{
 transform: rotate(360deg);
-filter:  drop-shadow(-3px 3px 0.4rem rgb(60, 255, 0));
+filter:  drop-shadow(-3px 3px 0.4rem rgb(0, 253, 241));
 }
 .nav_logo p {
   color: var(--white);
