@@ -825,3 +825,24 @@ footer a {
     font-size: 1.1rem;
   }
 }
+
+/* Tooltip personalizado */
+.guia-tooltip {
+position: fixed;
+background: #fff;
+color: #333;
+border-end-end-radius: 100%;
+border-start-end-radius: 100%;
+border-start-start-radius: 80%;
+padding: 1rem;
+box-shadow: 0 2px 12px rgba(0, 0, 0, 0.767);
+font-size: 1rem;
+z-index: 1000;
+max-width: 250px;
+pointer-events: none;
+opacity: 0;
+transition: opacity 0.3s;
+}
+.guia-tooltip.visible {
+opacity: 1;
+}

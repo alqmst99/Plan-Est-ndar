@@ -63,7 +63,7 @@
     <nav>
       <div class="nav_logo">
         <div class="logo-img">
-          <img src="./assets/img/Logo-Oficial-1.png" width="100px" alt="Logo-Fstail">
+          <img src="./assets/img/Logo-Oficial-1.png" width="80px" alt="Logo-Fstail">
         </div>
         <p>Started Plan</p>
       </div>
@@ -101,7 +101,7 @@
     </section>
 
     <!--ABOUT SECTION-->
-    <section class="about section about-section" id="about">
+    <section class="about section about-section" id="about" data-guia="Aquí también puedes agregar una galería, blogs, portfolios, etc.">
       <div class="about_container container grid">
         <div class="about_data">
 
@@ -146,11 +146,11 @@
     </section>
 
     <!-- Services -->
-    <section id="service" class="section-services">
+    <section id="service" class="section-services" data-guia="Aquí también puedes agregar una galería, blogs, portfolios, etc.">
       <h2>¿Qué ofrezco?</h2>
       <div class="service-list">
 
-        <div class="service-card">
+        <div class="service-card" >
           <div class="service-icon"> <i class="ri-code-s-slash-fill ri-10x"></i></div>
           <div class="service-content">
             <h2 class="card-title">Desarrollo Web Personalizado</h2>
@@ -166,7 +166,7 @@
           </div>
         </div>
 
-        <div class="service-card">
+        <div class="service-card" >
           <div class="service-icon"> <i class="ri-compass-3-line ri-10x"></i></div>
           <div class="service-content">
             <h2 class="card-title">Presencia Digital Estratégica</h2>
@@ -184,7 +184,7 @@
           </div>
         </div>
 
-        <div class="service-card">
+        <div class="service-card" >
           <div class="service-icon"><i class="ri-sparkling-fill ri-10x"></i></div>
           <div class="service-content">
             <h2 class="card-title">Tu Web, Tu Estilo, Tu Ritmo</h2>
@@ -276,7 +276,7 @@
           <input type="email" name="email" placeholder="Tu correo" required>
           <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
         </div>
-        <button type="submit" class="btn">Enviar</button>
+        <button type="submit" class="btn" id="demoBtn">Enviar</button>
       </form>
 
       <div class="socials">
@@ -295,7 +295,7 @@
       <div class="footer-desc">
 
         <div class="footer-img">
-          <img src="./assets/img/Logo-Oficial-1.png" width="150px" alt="Logo-Fstail">
+          <img src="./assets/img/Logo-Oficial-1.png" width="100px" alt="Logo-Fstail">
         </div>
 
 
@@ -346,6 +346,15 @@
     </div>
 
   </footer>
+
+  <!-- Modal Demo Warning -->
+<div id="demoModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.5); z-index:2000; justify-content:center; align-items:center;">
+  <div style="background:#fff; padding:2rem; border-radius:12px; max-width:350px; text-align:center; box-shadow:0 2px 12px rgba(0,0,0,0.2);">
+    <h2 style="color:#d9534f;">¡Advertencia!</h2>
+    <p>Esta función es solo una demo y no está activa en la versión actual.</p>
+    <button id="closeDemoModal" style="margin-top:1rem; padding:0.5rem 1.5rem; border:none; background:#d9534f; color:#fff; border-radius:8px; cursor:pointer;">Cerrar</button>
+  </div>
+</div>
 </body>
 <script src="./script.js"> </script>
 
