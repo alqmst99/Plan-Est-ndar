@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const rect = section.getBoundingClientRect();
       //calculamos a partir de las medidas rectangulares la posicion de la burbuja de dialogo
       toolTip.style.top =
-        window.screenY + rect.top - toolTip.offsetHeight - 10 + "px";
+        window.screenY + rect.top - toolTip.offsetHeight + 50 + "px";
       toolTip.style.left =
         rect.left + rect.width / 2 - toolTip.offsetWidth / 2 + "px";
     });

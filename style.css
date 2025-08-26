@@ -270,7 +270,7 @@ header nav .nav_links .link a:hover{
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  box-shadow: -50px -2px 80px black;
+  box-shadow: 0px 0px 20px black;
   overflow: hidden;
   /* Esto es clave para evitar desbordes visuales */
   background-color: #f4f4f4;
@@ -833,7 +833,7 @@ background: #fff;
 color: #333;
 border-end-end-radius: 100%;
 border-start-end-radius: 100%;
-border-start-start-radius: 80%;
+border-start-start-radius: 75%;
 padding: 1rem;
 box-shadow: 0 2px 12px rgba(0, 0, 0, 0.767);
 font-size: 1rem;
