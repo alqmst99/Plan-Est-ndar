@@ -3,8 +3,8 @@
 
 /* Values Root*/
 :root {
-  --primary-color: rgb(70, 0, 128);
-  --primary-color-light: #b78aff;
+  --primary-color: rgb(87, 42, 124);
+  --primary-color-light: #441b86;
   --primary-color-extra-light: #35373b;
   --secondary-color: #75f954;
   --secondary-color-dark: #9bee86;
@@ -527,6 +527,7 @@ footer{
   width: 25%;
   margin: 0;
   font-size: 1rem;
+  color: wheat;
 }
 .footer-img{
   display: flex;
@@ -549,8 +550,13 @@ footer{
   align-self: flex-end;
   justify-content: center;
   text-align: center;
+
 }
 
+
+.footer-copy h4{
+    color: white;
+}
 .footer-copy {
   justify-content: center;
 }
@@ -559,13 +565,16 @@ footer{
   display: flex;
   justify-content: center;
 }
+.footer-social i{
+  color:white;
+}
 
-footer a {
+footer a, p, b {
   color: white;
 }
 
 footer span {
-  color: var(--white);
+  color: var(--secondary-color);
 }
 
 footer a {

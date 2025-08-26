@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
       toolTip.style.top =
         window.screenY + rect.top - toolTip.offsetHeight + 50 + "px";
       toolTip.style.left =
-        rect.left + rect.width / 2 - toolTip.offsetWidth / 2 + "px";
+        rect.left + rect.width / 1.2 - toolTip.offsetWidth / 1.5 + "px";
     });
     section.addEventListener("mouseleave", function () {
       toolTip.classList.remove("visible");
